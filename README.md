@@ -66,6 +66,7 @@ php artisan test
 ![Backend](docs/images/documentacion.png)
 
 
+
 # 📑 NOTAS DEL DESARROLLO
 
 ## 🔹 Decisiones de arquitectura
