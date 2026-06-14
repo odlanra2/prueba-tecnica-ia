@@ -1,0 +1,130 @@
+.users-screen {
+  min-height: 100vh;
+  background-color: #f5f6f8;
+}
+
+.users-screen-header {
+  background-color: #fff;
+}
+
+.users-screen-brand {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1a2332;
+  letter-spacing: -0.02em;
+}
+
+.users-screen-header-hint {
+  font-size: 0.875rem;
+  color: #9aa3b2;
+}
+
+.users-screen-divider {
+  margin: 0;
+  border-color: #e8ecf0;
+  opacity: 1;
+}
+
+.users-screen-hero {
+  padding: 2.5rem 1rem 1.75rem;
+}
+
+.users-screen-title {
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: #1a2332;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.users-screen-subtitle {
+  font-size: 0.9375rem;
+  color: #8b95a5;
+  margin-bottom: 0;
+}
+
+.users-screen-grid {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.user-card {
+  border: 1px solid #eef1f4;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(26, 35, 50, 0.04);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background-color: #fff;
+}
+
+.user-card:not(.user-card--disabled):hover {
+  box-shadow: 0 4px 14px rgba(26, 35, 50, 0.08);
+  transform: translateY(-2px);
+}
+
+.user-card--disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.user-card .card-body {
+  padding: 1.5rem 1rem 1.25rem;
+}
+
+.user-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a2332;
+  margin-bottom: 0.625rem;
+}
+
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.user-badge--premium {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.user-badge--premium .user-badge-star {
+  font-size: 0.625rem;
+}
+
+.user-badge--standard {
+  background-color: #e8eef4;
+  color: #5c6b7a;
+}
+
+.user-reservations {
+  font-size: 0.8125rem;
+  color: #9aa3b2;
+  margin-bottom: 0;
+}
+
+.user-reservations--limit {
+  color: #e57373;
+  font-weight: 500;
+}
