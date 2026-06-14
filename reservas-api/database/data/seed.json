@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "password": "secret",
+      "plan": "standard"
+    },
+    {
+      "name": "Ana Gómez",
+      "email": "ana@example.com",
+      "password": "secret",
+      "plan": "premium"
+    },
+    {
+      "name": "Carlos Ruiz",
+      "email": "carlos@example.com",
+      "password": "secret",
+      "plan": "standard"
+    },
+    {
+      "name": "Laura Torres",
+      "email": "laura@example.com",
+      "password": "secret",
+      "plan": "premium"
+    }
+  ],
+  "services": [
+    { "name": "Consulta médica", "duration": 60, "price": 100000, "non_refundable": false },
+    { "name": "Terapia psicológica", "duration": 45, "price": 80000, "non_refundable": true },
+    { "name": "Masaje relajante", "duration": 90, "price": 120000, "non_refundable": false },
+    { "name": "Entrenamiento personal", "duration": 60, "price": 70000, "non_refundable": false },
+    { "name": "Clases de yoga", "duration": 75, "price": 60000, "non_refundable": false },
+    { "name": "Nutrición", "duration": 50, "price": 85000, "non_refundable": false },
+    { "name": "Revisión dental", "duration": 30, "price": 50000, "non_refundable": false },
+    { "name": "Consulta pediátrica", "duration": 40, "price": 90000, "non_refundable": false },
+    { "name": "Terapia ocupacional", "duration": 60, "price": 95000, "non_refundable": false },
+    { "name": "Clases de pilates", "duration": 60, "price": 65000, "non_refundable": false },
+    { "name": "Consulta dermatológica", "duration": 45, "price": 110000, "non_refundable": false },
+    { "name": "Revisión oftalmológica", "duration": 30, "price": 75000, "non_refundable": false },
+    { "name": "Terapia de pareja", "duration": 60, "price": 130000, "non_refundable": true },
+    { "name": "Clases de meditación", "duration": 60, "price": 55000, "non_refundable": false },
+    { "name": "Consulta cardiológica", "duration": 60, "price": 150000, "non_refundable": false },
+    { "name": "Revisión ginecológica", "duration": 50, "price": 95000, "non_refundable": false },
+    { "name": "Terapia física", "duration": 60, "price": 100000, "non_refundable": false },
+    { "name": "Clases de spinning", "duration": 45, "price": 60000, "non_refundable": false },
+    { "name": "Consulta general", "duration": 30, "price": 40000, "non_refundable": false },
+    { "name": "Revisión auditiva", "duration": 30, "price": 70000, "non_refundable": false }
+  ],
+  "reservations": [
+    {
+      "user_id": 1,
+      "service_id": 1,
+      "fecha_inicio": "2026-06-15 09:00:00",
+      "fecha_fin": "2026-06-15 10:00:00",
+      "estado": "active"
+    },
+    {
+      "user_id": 1,
+      "service_id": 2,
+      "fecha_inicio": "2026-06-16 14:00:00",
+      "fecha_fin": "2026-06-16 14:45:00",
+      "estado": "active"
+    }
+  ]
+}
