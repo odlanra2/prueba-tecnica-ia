@@ -60,10 +60,10 @@ Backend
 php artisan test
 
 ### 🖥️ Frontend – Sistema de Reservas
-![Frontend](docs/images/front.png)
+![Frontend](./docs/images/front.png)
 
 ### ⚙️ Backend – Documentación Swagger
-![Backend](docs/images/documentacion.png)
+![Backend](./docs/images/documentacion.png)
 
 
 
