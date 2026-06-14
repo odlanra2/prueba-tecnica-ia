@@ -62,6 +62,9 @@ php artisan test
 ### 🖥️ Frontend – Sistema de Reservas
 
 <img src="docs/images/front.png" width="500" alt="Descripción de la imagen">
+
+
+
 ### ⚙️ Backend – Documentación Swagger
 ![Backend](/docs/images/documentacion.png)
 
